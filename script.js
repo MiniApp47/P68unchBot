@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Pas de "farms", on met direct "products"
             products: [
                 {
-                    id: 'Grape Gas',
+                    id: 'Grape Gas2',
                     name: 'Grape Gas 🍒',
                     flag: '🧬',
                     farm: 'By Hassan',
