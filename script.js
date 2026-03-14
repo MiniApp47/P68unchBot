@@ -64,8 +64,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoMonaco.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
-                                { weight: '2g', price: 50.00 },
-                                { weight: '5g', price: 120.00 }
+                                { weight: '5g', price: 120.00 },
+                                { weight: '10g', price: 200.00 },
+                                { weight: '25g', price: 420.00 }
                             ]
                         },
                         {
@@ -79,8 +80,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: '',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
-                                { weight: '2g', price: 50.00 },
-                                { weight: '5g', price: 120.00 }
+                                { weight: '5g', price: 120.00 },
+                                { weight: '10g', price: 200.00 },
+                                { weight: '25g', price: 420.00 }
                             ]
                         },
                         {
@@ -94,8 +96,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: '',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
-                                { weight: '2g', price: 50.00 },
-                                { weight: '5g', price: 120.00 }
+                                { weight: '5g', price: 120.00 },
+                                { weight: '10g', price: 200.00 },
+                                { weight: '25g', price: 420.00 }
                             ]
                         },
                     ]
@@ -126,22 +129,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     name: '🇺🇸 CALI IMPORT',
                     badgeText: 'Top Shelf USA',
                     products: [
-                        {
-                            id: 'Amnesia Lemon',
-                            name: 'Amnesia Lemon',
-                            flag: '🇺🇸',
-                            farm: 'CALI CONNECT',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductAmne.jpg',
-                            video: '',
-                            description: 'Goût sucré, têtes compactes.',
-                            tarifs: [
-                                { weight: '4g', price: 40.00 },
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 150.00 }
-                            ]
-                        }
 
                          /*   {
                             id: 'gelato-42',
@@ -180,6 +167,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     name: '🇪🇸 SPANISH GROWN',
                     badgeText: 'Indoor Spain',
                     products: [
+                        {
+                            id: 'Amnesia Lemon',
+                            name: 'Amnesia Lemon',
+                            flag: '🇺🇸',
+                            farm: 'CALI CONNECT',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductAmne.jpg',
+                            video: '',
+                            description: 'Goût sucré, têtes compactes.',
+                            tarifs: [
+                                { weight: '4g', price: 40.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 150.00 }
+                            ]
+                        },
                         {
                             id: 'Permanent Marker',
                             name: 'Permanent Marker',
