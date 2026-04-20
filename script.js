@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
             name: '🍫 HASH',
             type: 'Hash',
             quality: '🍫 HASH',
-            image: 'CategHash.png', 
+            image: 'CategHash.jpg', 
             
             // Ici "farms" sert de "Sous-Catégories"
             farms: [
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
             name: '🍀 WEED',
             type: 'Weed',
             quality: '🍀 WEED',
-            image: 'CategBeuh.png',
+            image: 'CategBeuh.jpg',
             farms: [
                 {
                     id: 'CALI',
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function () {
             name: '🍯 EXTRACT',
             type: 'Extract',
             quality: '🍯 EXTRACT',
-            image: 'CategExtra.png',
+            image: 'CategExtra.jpg',
             // Pas de "farms", on met direct "products"
             products: [
                 {
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function () {
             name: '🍬 EDIBLES',
             type: 'Edibles',
             quality: '🍬 EDIBLES',
-            image: 'CategEdib.png',
+            image: 'CategEdib.jpg',
             products: [
                 /* {
                     id: 'gummies',
