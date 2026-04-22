@@ -935,20 +935,11 @@
         }
 
         #page-contact .contact-card {
-            background: rgba(44, 44, 46, 0.8);
-            /* Fond semi-transparent */
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-radius: 20px;
-            width: 100%;
-            max-width: 400px;
-            padding: 20px;
-            box-sizing: border-box;
-            margin-top: 5vh;
-
+               width: 90%;
+    border-radius: 15px;
         }
 
-        .contact-links-list a {
+       /*  .contact-links-list a {
             align-items: center;
             padding: 15px;
             background: var(--tertiary-bg-color);
@@ -961,7 +952,7 @@
             display: flex;
             justify-content: center;
             font-size: 3vh;
-        }
+        } */
 
         .contact-links-list a:last-child {
             margin-bottom: 0;
@@ -970,6 +961,18 @@
         .contact-links-list a:hover {
             background-color: #4a4a4c;
         }
+
+        /* Style pour les liens de contact en image */
+.contact-link-img {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: block;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 
         /* --- NOUVEAU STYLE POUR LES LIENS DE CONTACT COLORÉS --- */
