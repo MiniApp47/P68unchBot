@@ -27,7 +27,39 @@ document.addEventListener('DOMContentLoaded', function () {
                     name: '❄️ FROZEN SIFT',
                     image: 'SousFrozen.jpg', // <-- METS TON IMAGE ICI
                     badgeText: 'Fresh Frozen Tech',
-                    products: []
+                    products: [
+                         {
+                            id: 'Bono de raya',
+                            name: 'Bono de raya 🌙',
+                            flag: '🇲🇦',
+                            farm: 'DR RIFF 🥼',
+                            promoEligible: true,
+                            type: 'Frozen',
+                            image: 'ProductBono.jpg', 
+                            video: 'VideoBono.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '20g', price: 250.00 }
+                            ]
+                        },
+                         {
+                            id: 'BlueBerry',
+                            name: 'BlueBerry 🫐',
+                            flag: '🇲🇦',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Frozen',
+                            image: 'ProductBlue.jpg', 
+                            video: 'VideoBlue.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 260.00 }
+                            ]
+                        },
+                    ]
                 },
                 {
                     id: 'STATIC',
@@ -42,8 +74,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'DrytechXGoldenfarm',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductGold.jpg', 
-                            video: 'VideoGold.mp4',
+                            image: 'ProductGold1.jpg', 
+                            video: 'VideoGold1.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
                                 { weight: '5g', price: 120.00 },
@@ -58,8 +90,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'DrytechXGoldenfarm',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductMonaco.jpg', 
-                            video: 'VideoMonaco.mp4',
+                            image: 'ProductMonaco1.jpg', 
+                            video: 'VideoMonaco1.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
                                 { weight: '5g', price: 120.00 },
@@ -74,8 +106,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'DrytechXGoldenfarm',
                             promoEligible: true,
                             type: 'Hash',
-                            image: '', 
-                            video: '',
+                            image: 'ProductBP.jpg', 
+                            video: 'VideoBP.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
                                 { weight: '5g', price: 120.00 },
@@ -90,8 +122,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'DrytechXGoldenfarm',
                             promoEligible: true,
                             type: 'Hash',
-                            image: '', 
-                            video: '',
+                            image: 'ProductGP.jpg', 
+                            video: 'VideoGP.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
                                 { weight: '5g', price: 120.00 },
@@ -124,14 +156,46 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Top Shelf USA',
                     products: [
                          {
+                            id: 'Super Boof',
+                            name: 'Super Boof 🧸',
+                            flag: '🇺🇸',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductBof.jpg',
+                            video: 'VideoBof.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 260.00 }
+                            ]
+                        },
+                         {
+                            id: 'Red Velvet 🩸',
+                            name: 'Red Velvet 🩸',
+                            flag: '🇺🇸',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductRed.jpg',
+                            video: 'VideoRed.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 260.00 }
+                            ]
+                        },
+                         {
                             id: 'Amnesia Lemon',
                             name: 'Amnesia Lemon',
                             flag: '🇺🇸',
-                            farm: 'CALI CONNECT',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductAmne.jpg',
-                            video: '',
+                            image: 'ProductAmne1.jpg',
+                            video: 'ProductAmne.jpg',
                             description: 'Goût sucré, têtes compactes.',
                             tarifs: [
                                 { weight: '4g', price: 40.00 },
@@ -147,36 +211,21 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'SousSpain.jpg', // <-- METS TON IMAGE ICI
                     badgeText: 'Indoor Spain',
                     products: [
-                        {
-                            id: 'Permanent Marker',
-                            name: 'Permanent Marker',
+                        /* {
+                            id: 'Monaco',
+                            name: 'Monaco 🛳',
                             flag: '🇪🇸',
                             farm: 'SPAIN CLUB',
                             promoEligible: true,
                             type: 'Weed',
-                            image: '',
+                            image: 'ProductMon.jpg',
                             video: '',
                             description: 'Classique citronné, effet Sativa.',
                             tarifs: [
                                 { weight: '5g', price: 50.00 },
                                 { weight: '10g', price: 90.00 }
                             ]
-                        },
-                        {
-                            id: 'Fuel Runtz',
-                            name: 'Fuel Runtz',
-                            flag: '🇪🇸',
-                            farm: 'SPAIN CLUB',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: '',
-                            video: '',
-                            description: 'Classique citronné, effet Sativa.',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 90.00 }
-                            ]
-                        }
+                        }, */
                     ]
                 },
                   {
@@ -347,6 +396,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function showPage(pageId) {
+         // 👇 AJOUT STRATÉGIQUE : Coupe toutes les vidéos instantanément au changement de page
+        document.querySelectorAll('video').forEach(video => {
+            video.pause();
+        });
+
         pages.forEach(p => p.classList.remove('active'));
         const page = document.getElementById(pageId);
         if (page) page.classList.add('active');
