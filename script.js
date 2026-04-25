@@ -187,22 +187,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 260.00 }
                             ]
                         },
-                         {
-                            id: 'Amnesia Lemon',
-                            name: 'Amnesia Lemon',
-                            flag: '🇺🇸',
-                            farm: '',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductAmne1.jpg',
-                            video: 'ProductAmne.jpg',
-                            description: 'Goût sucré, têtes compactes.',
-                            tarifs: [
-                                { weight: '4g', price: 40.00 },
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 150.00 }
-                            ]
-                        },
                     ]
                 },
                 {
@@ -211,26 +195,27 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'SousSpain.jpg', // <-- METS TON IMAGE ICI
                     badgeText: 'Indoor Spain',
                     products: [
-                        /* {
-                            id: 'Monaco',
-                            name: 'Monaco 🛳',
+                        {
+                            id: 'Amnesia Lemon',
+                            name: 'Amnesia Lemon',
                             flag: '🇪🇸',
-                            farm: 'SPAIN CLUB',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductMon.jpg',
-                            video: '',
-                            description: 'Classique citronné, effet Sativa.',
+                            image: 'ProductAmne1.jpg',
+                            video: 'ProductAmne.jpg',
+                            description: '',
                             tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 90.00 }
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 150.00 }
                             ]
-                        }, */
+                        },
                     ]
                 },
                   {
                     id: 'Dutch',
-                    name: '🇩🇪 DUTCH ',
+                    name: '🇳🇱 DUTCH ',
                     image: 'SousDutch.jpg', // <-- METS TON IMAGE ICI
                     badgeText: '',
                     products: [
