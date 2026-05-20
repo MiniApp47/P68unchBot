@@ -39,8 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoBono.mp4',
                             description: '',
                             tarifs: [
-                                { weight: '10g', price: 130.00 },
-                                { weight: '20g', price: 250.00 }
+                                { weight: '10g', price: 100.00 },
                             ]
                         },
                          {
@@ -54,9 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoBlue.mp4',
                             description: '',
                             tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 260.00 }
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 180.00 }
                             ]
                         },
                     ]
@@ -69,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     products: [
                         {
                             id: 'Goldcherry X Honeybanana (Cherry Banana )',
-                            name: 'Goldcherry X Honeybanana (Cherry Banana ) 🍌',
+                            name: 'Cherry Banane 🍌',
                             flag: '🇲🇦',
                             farm: 'DrytechXGoldenfarm',
                             promoEligible: true,
@@ -78,9 +77,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoGold1.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
-                                { weight: '5g', price: 120.00 },
-                                { weight: '10g', price: 200.00 },
-                                { weight: '25g', price: 420.00 }
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 170.00 },
                             ]
                         },
                         {
@@ -94,9 +92,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoMonaco1.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
-                                { weight: '5g', price: 120.00 },
-                                { weight: '10g', price: 200.00 },
-                                { weight: '25g', price: 420.00 }
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 170.00 },
                             ]
                         },
                         {
@@ -110,9 +107,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoBP.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
-                                { weight: '5g', price: 120.00 },
-                                { weight: '10g', price: 200.00 },
-                                { weight: '25g', price: 420.00 }
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 170.00 },
                             ]
                         },
                         {
@@ -126,9 +122,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoGP.mp4',
                             description: 'Static Sift ultra clean. 0 contaminants.',
                             tarifs: [
-                                { weight: '5g', price: 120.00 },
-                                { weight: '10g', price: 200.00 },
-                                { weight: '25g', price: 420.00 }
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 170.00 },
                             ]
                         },
                     ]
@@ -166,9 +161,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoBof.mp4',
                             description: '',
                             tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 130.00 },
-                                { weight: '25g', price: 260.00 }
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 100.00 },
                             ]
                         },
                          {
@@ -182,9 +176,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoRed.mp4',
                             description: '',
                             tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 130.00 },
-                                { weight: '25g', price: 260.00 }
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 100.00 },
                             ]
                         },
                     ]
@@ -281,8 +274,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoGas.mp4',
                     description: 'Piatella WPFF 1st wash cold cured. \n 1g/jar',
                     tarifs: [
-                        { weight: '1 jar', price: 110.00 },
-                        { weight: '2 jar', price: 200.00 }
+                        { weight: '1 jar', price: 80.00 },
+                        { weight: '2 jar', price: 150.00 },
+                        { weight: '3 jar', price: 210.00 }
                     ]
                 },
                 {
@@ -296,8 +290,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoMelon.mp4',
                     description: 'Piatella WPFF 1st wash cold cured. \n 1g/jar',
                     tarifs: [
-                        { weight: '1 jar', price: 110.00 },
-                        { weight: '2 jar', price: 200.00 }
+                        { weight: '1 jar', price: 80.00 },
+                        { weight: '2 jar', price: 150.00 },
+                        { weight: '3 jar', price: 210.00 }
                     ]
                 },
                 {
@@ -311,8 +306,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoJoker.mp4',
                     description: 'Piatella WPFF 1st wash cold cured. \n 1g/jar',
                     tarifs: [
-                        { weight: '1 jar', price: 110.00 },
-                        { weight: '2 jar', price: 200.00 }
+                        { weight: '1 jar', price: 80.00 },
+                        { weight: '2 jar', price: 150.00 },
+                        { weight: '3 jar', price: 210.00 }
                     ]
                 },
                 {
@@ -326,8 +322,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoUva.mp4',
                     description: 'Piatella WPFF 1st wash cold cured. \n 1g/jar',
                     tarifs: [
-                        { weight: '1 jar', price: 110.00 },
-                        { weight: '2 jar', price: 200.00 }
+                        { weight: '1 jar', price: 80.00 },
+                        { weight: '2 jar', price: 150.00 },
+                        { weight: '3 jar', price: 210.00 }
                     ]
                 }
             ]
