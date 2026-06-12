@@ -29,6 +29,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Fresh Frozen Tech',
                     products: [
                          {
+                            id: 'RS11 X Sherbet',
+                            name: 'RS11 X Sherbet 🍧',
+                            flag: '🇲🇦',
+                            farm: 'ELITE PLASMA GENETIC ⚛',
+                            promoEligible: true,
+                            type: 'Frozen',
+                            image: 'ProductRs.jpg', 
+                            video: 'VideoRs.mp4',
+                            description: '🔮 Elite plasma genetic frozen 🔮',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '100g', price: 550.00 },
+                            ]
+                        },
+                         {
                             id: 'Bono de raya',
                             name: 'Bono de raya 🌙',
                             flag: '🇲🇦',
@@ -66,6 +83,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'SousStatic.jpg', // <-- METS TON IMAGE ICI
                     badgeText: 'High Voltage',
                     products: [
+                         {
+                            id: 'RS11 ',
+                            name: 'RS11 🚀',
+                            flag: '🇲🇦',
+                            farm: 'ELITE PLASMA GENETIC ⚛',
+                            promoEligible: true,
+                            type: 'Static',
+                            image: 'ProductRss.jpg', 
+                            video: 'VideoRss.mp4',
+                            description: '🔮 Elite plasma genetic single source plasma static 🔮',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '100g', price: 650.00 },
+                            ]
+                        },
                         {
                             id: 'Goldcherry X Honeybanana (Cherry Banana )',
                             name: 'Cherry Banane 🍌',
