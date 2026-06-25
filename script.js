@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 100.00 },
                             ]
                         },
-                         {
+                        /*  {
                             id: 'BlueBerry',
                             name: 'BlueBerry 🫐',
                             flag: '🇲🇦',
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 90.00 },
                                 { weight: '25g', price: 180.00 }
                             ]
-                        },
+                        }, */
                     ]
                 },
                 {
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'SousCali.jpg', // <-- METS TON IMAGE ICI
                     badgeText: 'Top Shelf USA',
                     products: [
-                         {
+                        /*  {
                             id: 'Super Boof',
                             name: 'Super Boof 🧸',
                             flag: '🇺🇸',
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 60.00 },
                                 { weight: '10g', price: 100.00 },
                             ]
-                        },
+                        }, */
                     ]
                 },
                 {
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'SousSpain.jpg', // <-- METS TON IMAGE ICI
                     badgeText: 'Indoor Spain',
                     products: [
-                        {
+                       /*  {
                             id: 'Amnesia Lemon',
                             name: 'Amnesia Lemon',
                             flag: '🇪🇸',
@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 70.00 },
                                 { weight: '25g', price: 150.00 }
                             ]
-                        },
+                        }, */
                     ]
                 },
                   {
@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', function () {
             quality: '🍯 EXTRACT',
             image: 'CategExtra.jpg',
             products: [
-                {
+              /*   {
                     id: 'Grape Gas2',
                     name: 'Grape Gas 🍒',
                     flag: '🧬',
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '2 jar', price: 150.00 },
                         { weight: '3 jar', price: 210.00 }
                     ]
-                }
+                } */
             ]
         },
         {
