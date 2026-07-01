@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 650.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Goldcherry X Honeybanana (Cherry Banana )',
                             name: 'Cherry Banane 🍌',
                             flag: '🇲🇦',
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 90.00 },
                                 { weight: '10g', price: 170.00 },
                             ]
-                        },
+                        }, */
                     ]
                 },
                 {
